@@ -1,0 +1,233 @@
+{
+  "id": "3fe2bc70-8662-407d-bd30-709f2c4e2aa0",
+  "name": "flight.check - context:check-flight - comment:airline",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "check-flight"
+  ],
+  "contexts": [
+    "check-flight"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "flight.check",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "airline",
+          "dataType": "@airline",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$airline",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "and now ",
+          "userDefined": false
+        },
+        {
+          "text": "JAL",
+          "userDefined": false,
+          "alias": "airline",
+          "meta": "@airline"
+        }
+      ],
+      "count": 0,
+      "id": "8b0993c7-5fd4-414b-ae00-d5c57a2e99d1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "JAL",
+          "userDefined": false,
+          "alias": "airline",
+          "meta": "@airline"
+        }
+      ],
+      "count": 0,
+      "id": "e38e542c-a060-44ce-8e04-181f68ca04dc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "check ",
+          "userDefined": false
+        },
+        {
+          "text": "Alliance Air",
+          "userDefined": false,
+          "alias": "airline",
+          "meta": "@airline"
+        }
+      ],
+      "count": 0,
+      "id": "3da74114-4535-4f79-9e81-21defd988ac3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "the same for ",
+          "userDefined": false
+        },
+        {
+          "text": "US Airways",
+          "userDefined": false,
+          "alias": "airline",
+          "meta": "@airline"
+        }
+      ],
+      "count": 0,
+      "id": "6a755a27-f606-4b3f-b540-7bcce49b47f2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "now check ",
+          "userDefined": false
+        },
+        {
+          "text": "EVA Air",
+          "userDefined": false,
+          "alias": "airline",
+          "meta": "@airline"
+        }
+      ],
+      "count": 0,
+      "id": "f2a1ca46-3958-4dcf-bba3-493e18733768",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Alliance Air",
+          "userDefined": true,
+          "alias": "airline",
+          "meta": "@airline"
+        },
+        {
+          "text": " airlines",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dfe15db6-6c6b-4888-9777-509c2c5227d5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what about ",
+          "userDefined": false
+        },
+        {
+          "text": "Qatar Airways",
+          "userDefined": false,
+          "alias": "airline",
+          "meta": "@airline"
+        }
+      ],
+      "count": 0,
+      "id": "1e8fef08-c0eb-44c8-81d0-aff6d512029b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "airline is ",
+          "userDefined": false
+        },
+        {
+          "text": "Montenegro Airlines",
+          "userDefined": false,
+          "alias": "airline",
+          "meta": "@airline"
+        }
+      ],
+      "count": 0,
+      "id": "7eee8d54-3ff9-4f20-9ccd-4695be4c8328",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how about ",
+          "userDefined": false
+        },
+        {
+          "text": "US Airways",
+          "userDefined": false,
+          "alias": "airline",
+          "meta": "@airline"
+        }
+      ],
+      "count": 0,
+      "id": "8c02fb7f-6f03-4c8f-8c9e-c6d3b0d93125",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "now  ",
+          "userDefined": false
+        },
+        {
+          "text": "Singapore Airlines",
+          "userDefined": false,
+          "alias": "airline",
+          "meta": "@airline"
+        }
+      ],
+      "count": 0,
+      "id": "d01f59b9-c5ae-4989-987d-12bcf2ba0061",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
