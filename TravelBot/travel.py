@@ -24,7 +24,10 @@ def get_flight(origin):
 	#json_data = json.loads(r)
 	#print(r.result)
 	return jsonify(r.result)
-
+    
+"""
+are you keeping the commented out code below or deleting it?
+"""
 #@app.route('/snap_info', methods=['GET'])
 #def home():
    # return jsonify(get_info())
